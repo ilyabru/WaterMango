@@ -15,7 +15,7 @@ There are two ways to run this app:
     4. Run `npm install`
     5. CD into the WaterMango\WaterMango folder (contains the .csproj file)
     6. Execute the `dotnet run` CLI command
-    7. Navigate to `https://localhost:5000/`
+    7. Navigate to `https://localhost:5001/`
 
 
 ## Built With

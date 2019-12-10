@@ -28,8 +28,8 @@ namespace WaterMango
 
             services.AddDbContext<WaterMangoContext>(options =>
             {
-                //options.UseInMemoryDatabase(databaseName: "WaterMango"); // In memory for demo purposes
-                options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=WaterMangoDB;Trusted_Connection=True;"); // SQL Server would be used for production
+                options.UseInMemoryDatabase(databaseName: "WaterMango"); // In memory for demo purposes
+                //options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=WaterMangoDB;Trusted_Connection=True;"); // SQL Server would be used for production
             });
 
             // In production, the Angular files will be served from this directory
