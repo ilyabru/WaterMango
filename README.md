@@ -5,8 +5,9 @@ There are two ways to run this app:
 
 - **Visual Studio**
     1. Download Visual Studio 2019. Update to the latest version
-    2. Open the solution and click Start Debugging
-    3. Navigate to `https://localhost:44386/` on your browser
+    2. Ensure the ASP.NET and .NET Core toolsets are installed with VS2019
+    3. Open the solution and click Start Debugging
+    4. Navigate to `https://localhost:44386/` on your browser
 
 - **CLI**
     1. Download and install .NET Core 3.1 SDK from here: `https://dotnet.microsoft.com/download`
