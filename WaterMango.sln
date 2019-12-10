@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMango", "WaterMango\WaterMango.csproj", "{8FCF5C34-5B3B-44E0-B20A-150C36A5FA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterMango.Data", "WaterMango.Data\WaterMango.Data.csproj", "{7C97AEFC-7676-4B90-B086-CE8A78ADBE05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCF5C34-5B3B-44E0-B20A-150C36A5FA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCF5C34-5B3B-44E0-B20A-150C36A5FA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCF5C34-5B3B-44E0-B20A-150C36A5FA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCF5C34-5B3B-44E0-B20A-150C36A5FA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C97AEFC-7676-4B90-B086-CE8A78ADBE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C97AEFC-7676-4B90-B086-CE8A78ADBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C97AEFC-7676-4B90-B086-CE8A78ADBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C97AEFC-7676-4B90-B086-CE8A78ADBE05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD7E9800-D126-4A9B-94D8-5197AECCA463}
+	EndGlobalSection
+EndGlobal

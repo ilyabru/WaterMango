@@ -1,0 +1,30 @@
+<div class="card" style="margin: 50px;">
+    <div class="card-header">
+        Our Office Plants
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover mb-0" *ngIf="plants$ | async as plants">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Watering Date</th>
+                        <th>Status</th>
+                        <th>Water Control</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let plant of plants">
+                    <tr [ngClass]="{'table-danger': needsWatering(plant) }">
+                        <td>{{ plant.name }}</td>
+                        <td>{{ (plant.lastWateredDate) ? (plant.lastWateredDate | date:'medium') : 'Not Watered Yet' }}
+                        </td>
+                        <td>{{ getWateringStatusLabel(plant)}}</td>
+                        <td>
+                            <water-button [plant]="plant"></water-button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
